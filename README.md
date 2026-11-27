@@ -1,22 +1,21 @@
-# MASS-Net
+# MASA-Net
 
-**Paper:** *Memory-Augmented SAM with Arbitrary-Scale Super-Resolution for Cross-Satellite Continuous Change Detection*  
+**Paper:** *Memory-Augmented Spatiotemporal Aggregation Network with Arbitrary-Scale Super-Resolution for Cross-Satellite Continuous Change Detection*  
 **Authors:** Jian Xiao, Kai Zhang, Feng Zhang, Lei Ding, Mengying Xie, Jiande Sun
 
 <p align="center">
   <img src="SSDA-Net.png" width="900">
 </p>
 
-> MASS-Net uses the **arbitrary resolution-adaptive local implicit super-resolution (ALISR)** module for spatial alignment and **memory-guided cross-temporal aggregation (MCTA)** with a **state update cell (SUC)** to mitigate cross-satellite spectral discrepancies and propagate change-aware features across time.
-# CS-TSCD dataset
+> MASA-Net employs an **adaptive local implicit super-resolution (ALISR)** component for spatial resolution alignment and **memory-guided cross-temporal aggregation (MCTA)** for feature alignment and local spatiotemporal interaction. A **state update cell (SUC)** is incorporated into MCTA to propagate change-aware memory across consecutive temporal observations.
+# CSTS-CD dataset
 
-CS-TSCD is a remote sensing continuous change detection dataset composed of multi-temporal images acquired by different satellites, designed to study continuous change detection in cross-satellite settings.
+CSTS-CD is a remote sensing continuous change detection dataset composed of multi-temporal images acquired by different satellites, designed to study continuous change detection in cross-satellite settings.
 
 <p align="center">
   <img src="CS_TSCD.png" width="900">
 </p>
 
-CS-TSCD is a remote sensing continuous change detection dataset composed of multi-temporal images acquired by different satellites, designed to study continuous change detection in cross-satellite settings.
 
 ### Dataset Description
 
@@ -41,7 +40,7 @@ CS-TSCD is a remote sensing continuous change detection dataset composed of mult
 - **Scale:** **3,389** four-temporal image sequences, each containing four RGB images and three binary change maps for **T1→T2**, **T2→T3**, and **T3→T4**, split into **train/val/test = 7:1:2**
 - **Preprocessing:** radiometric calibration, atmospheric correction, orthorectification, geometric refinement, pansharpening (ENVI NNDiffuse), cross-temporal co-registration, patch cropping, and change labeling.
 
-The dataset is avaliable at：https://pan.baidu.com/s/1kfJ6DDhKGRRwdr2AjvvDgg?pwd=2358
+The dataset is available at: https://pan.baidu.com/s/1kfJ6DDhKGRRwdr2AjvvDgg?pwd=2358
 
 
 ### Directory Structure 
@@ -55,7 +54,7 @@ CD-TSCD/
     label/
     label2/
     label3/
- val/
+  val/
     A/
     B/
     C/
@@ -71,5 +70,6 @@ CD-TSCD/
     label/
     label2/
     label3/
+```
 
 
