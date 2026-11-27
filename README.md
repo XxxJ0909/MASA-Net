@@ -4,7 +4,7 @@
 **Authors:** Jian Xiao, Kai Zhang, Feng Zhang, Lei Ding, Mengying Xie, Jiande Sun
 
 <p align="center">
-  <img src="SSDA-Net.png" width="900">
+  <img src="MASA-Net.png" width="900">
 </p>
 
 > MASA-Net employs an **adaptive local implicit super-resolution (ALISR)** component for spatial resolution alignment and **memory-guided cross-temporal aggregation (MCTA)** for feature alignment and local spatiotemporal interaction. A **state update cell (SUC)** is incorporated into MCTA to propagate change-aware memory across consecutive temporal observations.
@@ -13,7 +13,7 @@
 CSTS-CD is a remote sensing continuous change detection dataset composed of multi-temporal images acquired by different satellites, designed to study continuous change detection in cross-satellite settings.
 
 <p align="center">
-  <img src="CS_TSCD.png" width="900">
+  <img src="CSTS-CD.png" width="900">
 </p>
 
 
